@@ -1,0 +1,2 @@
+### HOW TO START THIS PROJECT?
+npm start

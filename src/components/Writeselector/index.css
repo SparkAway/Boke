@@ -1,0 +1,65 @@
+.hidden{
+    display: none !important;
+}
+textarea{
+    display: block;
+    resize: none;
+    outline: none;
+    height: 100%;
+    padding: 0.5rem;
+    flex:1;
+}
+.write-selector{
+    padding: 0.4rem;
+    height: 40rem;
+    width: 40rem;
+    position: fixed;
+    left:50%;
+    top: 50%;
+    margin-top: -20rem;
+    margin-left: -20rem;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+.write-selector header{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2rem;
+}
+.write-selector header label{
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.titlebox{
+    margin-bottom: 2rem;
+}
+.titlebox label{
+    margin-right: 0.2rem;
+}
+.contentbox{
+    flex-grow: 1;
+    display: flex;
+    margin-bottom: 3rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer button{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+    border: 0.2px solid rgb(0, 127, 255);
+    border-radius: 3px;
+    background-color: white
+}

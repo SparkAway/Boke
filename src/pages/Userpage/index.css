@@ -1,0 +1,43 @@
+.usercontent{
+    width: 40rem;
+    min-height: 18rem;
+    background-color: white;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.usercontent header{
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 3rem;
+    border-bottom:  1px solid rgb(141, 139, 139,0.2);;
+}
+.iconbox{
+    height: 10rem;
+    width: 10rem;
+    background: url('../../img/suspen.jpg');
+    background-size: cover;
+    margin-right: 4.2rem;
+}
+.usercontent .headerbox{
+    display: flex;
+    flex-direction: column;
+
+}
+.top{
+    margin-bottom: 1.2rem;
+}
+.bottom{
+    margin-top: 2.5rem;
+    display: flex;
+}
+.bottom li{
+    cursor: pointer;
+    margin-right: 1.22rem;
+}
+.bottom li:hover{
+    color: darkblue;
+}
+.brefdescribe{
+    color: gray;
+}

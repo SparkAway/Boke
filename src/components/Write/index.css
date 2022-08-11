@@ -1,0 +1,11 @@
+.write{
+    height: 3rem;
+    width: 3rem;
+    position: fixed;
+    top: 25rem;
+    right: 10rem;
+    z-index: 999;
+    background: url('../../img/write.png');
+    background-size: cover;
+    cursor: pointer;
+}

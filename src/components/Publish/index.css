@@ -1,0 +1,30 @@
+.publish{
+    display: flex;
+    justify-content:space-between; 
+    border-bottom: 1px solid rgb(141, 139, 139,0.2);
+    padding:0 2rem 0 2rem;
+}
+.publish .front{
+    display: flex;
+    align-items: baseline;
+}
+.publish .front .title{
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.publish .front .brefdes{
+    width: 26rem;
+    font-size: 1rem;
+    color: gray;
+}
+.publish .end{
+    display: flex;
+}
+.publish .end .comment{
+    margin-left: 1.3rem;
+    display: flex;
+}
+.publish .end .like{
+    display: flex;
+}

@@ -1,0 +1,12 @@
+.Login{
+    background-color: rgb(232, 232, 232);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: url('/public/city.jpg') no-repeat;
+    background-size: cover;
+}
+.loginform{
+    margin-right: 4rem;
+}

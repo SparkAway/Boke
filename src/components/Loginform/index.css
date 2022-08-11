@@ -1,0 +1,70 @@
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+::-webkit-input-placeholder { 
+    color:#999;font-size:16px;
+    position: relative;
+    top: 0.25rem;
+    left: 0.25rem;
+}
+.Loginform{
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232,0.4);
+}
+.formContent{
+    height: 19rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: transparent;
+}
+.formContent header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.formContent .forminput label{
+    margin-right: 0.5rem;
+}
+.formContent .forminput{
+    display: flex;
+}
+.formContent .forminput input{
+    flex-grow: 1;
+}
+.formContent .usernameBox{
+    height: 2rem;
+    font-size:1.3rem;
+    margin-bottom: 1rem;
+}
+.formContent .passwordBox{
+    height: 2rem;
+    font-size: 1.3rem;
+}
+.formContent .passwordBox label{
+    margin-right: 1.7rem;
+}
+.formContent .handle{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.formContent .handle button{
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    width: 5rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    background-color: rgb(205, 205, 205,0.4);
+}
+.formContent .handle #login{
+    margin-right: 2rem;
+}
